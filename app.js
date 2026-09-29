@@ -94,7 +94,7 @@ function Icon({ path }) {
 function LogoMark() {
   return (
     <span className="brand-mark" aria-hidden="true">
-      <img src="./assets/hprc-original-logo.png" alt="" />
+      <img src="./hprc-original-logo.png" alt="" />
     </span>
   );
 }
@@ -218,7 +218,7 @@ function Hero() {
         <div className="hero-visual reveal tilt" aria-label="Health products regulatory visual">
           <div className="hero-photo">
             <img
-              src="./assets/qc-machinery.png"
+              src="./qc-machinery.png"
               alt="Automated pharmaceutical quality control machinery"
             />
           </div>
@@ -286,13 +286,13 @@ function About() {
         <div className="media-stack reveal tilt">
           <div className="photo-main">
             <img
-              src="./assets/production-line-products.png"
+              src="./production-line-products.png"
               alt="Pharmaceutical production line with medicine products"
             />
           </div>
           <div className="photo-card">
             <img
-              src="./assets/registration-products.png"
+              src="./registration-products.png"
               alt="Medicine packaging, vials, and registration documents"
             />
           </div>
@@ -347,7 +347,7 @@ function Process() {
         <div className="process-art reveal tilt">
           <div className="process-image process-image-large">
             <img
-              src="./assets/lab-samples.png"
+              src="./lab-samples.png"
               alt="Sterile pharmaceutical samples and laboratory instruments"
             />
           </div>
@@ -383,7 +383,7 @@ function Vision() {
     <section className="banner">
       <div className="banner-grid">
         <div className="banner-image">
-          <img src="./assets/vision-growth.png" alt="Health products, a quality checklist and a growing plant beside ascending steps, representing compliance and sustainable growth" loading="lazy" />
+          <img src="./vision-growth.png" alt="Health products, a quality checklist and a growing plant beside ascending steps, representing compliance and sustainable growth" loading="lazy" />
         </div>
         <div className="banner-copy reveal">
           <span className="eyebrow">Vision and goal</span>
@@ -494,7 +494,7 @@ function Contact() {
         </div>
         <div className="contact-grid">
           <aside className="contact-panel reveal tilt">
-            <img className="contact-photo" src="./assets/contact-products.png" alt="Health products and pharmaceutical laboratory equipment" loading="lazy" />
+            <img className="contact-photo" src="./contact-products.png" alt="Health products and pharmaceutical laboratory equipment" loading="lazy" />
             <div className="contact-details">
               <a href={`tel:${company.phone.replace(/\s/g, "")}`}>
                 <strong>Call us</strong>

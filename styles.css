@@ -260,7 +260,7 @@ a {
   isolation: isolate;
   background:
     linear-gradient(110deg, rgba(5, 21, 38, 0.97) 0%, rgba(9, 34, 57, 0.86) 44%, rgba(7, 26, 45, 0.48) 100%),
-    url("./assets/hero-pharma-machines.png") 58% center / cover;
+    url("./hero-pharma-machines.png") 58% center / cover;
 }
 
 .hero::before {
@@ -997,7 +997,7 @@ section {
   height: 340px;
   background:
     linear-gradient(0deg, rgba(16, 32, 44, 0.05), rgba(16, 32, 44, 0.05)),
-    url("./assets/contact-products.png") center / cover;
+    url("./contact-products.png") center / cover;
 }
 
 .contact-details {
